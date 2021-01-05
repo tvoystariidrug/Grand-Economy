@@ -1,0 +1,37 @@
+grandeconomy.insufficient_credit=У Вас недостаточно денег, чтобы сделать это.
+
+grandeconomy.killed_balance=Вы были убиты, Ваш баланс теперь: %s
+grandeconomy.killer_balance=Вы только что убили кого-то, Ваш баланс теперь: %s
+
+commands.grandeconomy.common.console=%s могут использовать только игроки.
+commands.grandeconomy.common.balance=Баланс: %s
+
+commands.grandeconomy.balance.usage=/balance
+commands.grandeconomy.balance.description=Показывает текущий баланс Вашего счёта.
+
+commands.grandeconomy.convert.usage=/convert
+commands.grandeconomy.convert.description=Конвертируйте то, что Вы держите в руке в валюту.
+commands.grandeconomy.convert.success=Вы обменяли %s %s за %s каждую, получив в сумме %s. Ваш баланс теперь: %s.
+commands.grandeconomy.convert.failure=Предмет, который вы держите не имеет ценности.
+
+commands.grandeconomy.pay.usage=/pay <игрок> <количество>
+commands.grandeconomy.pay.description=Отправить деньги с Вашего баланса другому игроку.
+commands.grandeconomy.pay.negative=Вы не можете отправить кому-либо отрицательную сумму.
+commands.grandeconomy.pay.paid=Вы отправили %s игроку %s.
+commands.grandeconomy.pay.received=Вы получили %s от игрока %s.
+
+commands.grandeconomy.wallet.usage=/wallet <give|take|set|balance> <игрок> <количество>
+commands.grandeconomy.wallet.description=Команда администратора для управления балансом на счетах.
+commands.grandeconomy.wallet.given=%s добавлено на баланс игрока %s
+commands.grandeconomy.wallet.taken=%s взято из баланса игрока %s
+commands.grandeconomy.wallet.set=Баланс игрока %s установлен на %s
+commands.grandeconomy.wallet.balance=Баланс игрока %s: %s
+commands.grandeconomy.wallet.negative=Вы не можете сделать этого, потому что это установит баланс игрока %s ниже нуля.
+
+commands.grandeconomy.gehelp.usage=/geconhelp [страница]
+commands.grandeconomy.gehelp.description=команда помощи The Grand Economy.
+commands.grandeconomy.gehelp.format=%s: %s
+
+grandeconomy.chat.page.next=[Следующая]
+grandeconomy.chat.page.prev=[Предыдущая]
+grandeconomy.chat.page.num=Page: %s/%s
